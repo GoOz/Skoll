@@ -13,8 +13,6 @@ member-list:
   background-color: '#222'
   operator:
     color: '#CF7D34'
-  voice:
-    color: '#8E9C69'
   selected:
     color: '#E9C062'
     background:
