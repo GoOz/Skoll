@@ -40,20 +40,20 @@ a {
 .message[type=error] { color: #ca773f; font-weight: bold; }
 .message[type=reply] { color: #f9ed97; }
 .message[type=error_reply] { color: #e3c59c; }
-.message[type=dcc_send_send] { color: #5e5960; }
-.message[type=dcc_send_receive] { color: #5e5960; }
-.message[type=join] { color: #5e5960; }
-.message[type=part] { color: #5e5960; }
-.message[type=quit] { color: #5e5960; }
+.message[type=dcc_send_send] { color: #817a83; }
+.message[type=dcc_send_receive] { color: #817a83; }
+.message[type=join],
+.message[type=part],
+.message[type=quit],
+.message[type=nick],
+.message[type=wallops],
+.message[type=debug_send],
+.message[type=debug_receive] { color: #3d3a3e; font-style: italic; font-size: 8pt;}
 .message[type=kick] { color: #899a95; }
 .message[type=kill] { color: #899a95; }
-.message[type=nick] { color: #5e5960; }
 .message[type=mode] { color: #8e9c69; }
 .message[type=topic] { color: #8e9c69; }
 .message[type=invite] { color: #daefa3; font-style: italic; }
-.message[type=wallops] { color: #5e5960; }
-.message[type=debug_send] { color: #5e5960; }
-.message[type=debug_receive] { color: #5e5960; }
 
 .highlight {
 	color: #ca773f;
@@ -73,12 +73,12 @@ a {
 body.normal .message[type=privmsg]          { padding-left: 14ex; display: block; }
 
 body.normal .message[type=notice]           { padding-left: 14ex; display: block; }
-body.normal .message[type=join]             { padding-left: 14ex; }
-body.normal .message[type=part]             { padding-left: 14ex; }
-body.normal .message[type=quit]             { padding-left: 14ex; }
+body.normal .message[type=join]             { padding-left: 15ex; }
+body.normal .message[type=part]             { padding-left: 15ex; }
+body.normal .message[type=quit]             { padding-left: 15ex; }
 body.normal .message[type=kick]             { padding-left: 14ex; }
 body.normal .message[type=kill]             { padding-left: 14ex; }
-body.normal .message[type=nick]             { padding-left: 14ex; }
+body.normal .message[type=nick]             { padding-left: 15ex; }
 body.normal .message[type=mode]             { padding-left: 14ex; }
 body.normal .message[type=topic]            { padding-left: 14ex; }
 body.normal .message[type=invite]           { padding-left: 14ex; }
@@ -91,8 +91,8 @@ body.normal .message[type=error_reply]      { padding-left: 14ex; }
 body.normal .message[type=dcc_send_send]    { padding-left: 14ex; }
 body.normal .message[type=dcc_send_receive] { padding-left: 14ex; }
 
-body.normal .message[type=debug_send]       { padding-left: 14ex; }
-body.normal .message[type=debug_receive]    { padding-left: 14ex; }
+body.normal .message[type=debug_send]       { padding-left: 15ex; }
+body.normal .message[type=debug_receive]    { padding-left: 15ex; }
 
 /* Spans in line */
 
