@@ -9,5 +9,5 @@ Based on [Limelight](http://projects.serenity.de/limelight/) and tweaked with ‚ù
 
 ## How to install
 
-Download or clone the repo and put Skoll.css & Skoll.yaml in Limechat's themes folder ```~/Library/Application\ Support/LimeChat/Themes/``
+Download or clone the repo and put Skoll.css & Skoll.yaml in Limechat's themes folder ``~/Library/Application\ Support/LimeChat/Themes/``
 
